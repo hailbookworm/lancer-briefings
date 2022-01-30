@@ -89,68 +89,60 @@ export default {
 
   data() {
     return {
-      "mission_slug": "001",
+      "mission_slug": "001_DO",
       "current_md": "",
       "events": "",
       "missions": [
         {
-          "slug": "001",
-          "name": "Bug-Hunt",
+          "slug": "001_DO",
+          "name": "Dead Orbit",
           "status": "start"
         },
       ],
       "pilots": [
         {
-          "callsign": "Jinzo",
-          "alias": "Shayan Arsenal",
-          "code": "462370be-bd0f-41c2-b667-cc75f3a59a96///NDL-C-DEEP-STATION//377308ad-ba23-410b-ae37-68a1fb5f8db4",
+          "callsign": "Sheriff",
+          "alias": "Marshall Lawrence",
+          "code": "249c2130-2949-4de5-b175-30a038a84c54///SeCo IA - hreff6be//a55c5999-9f16-4192-8441-d08eba113a38",
           "corpro": "GMS",
           "frame": "Everest",
-          "mech": "Type - Worst Beat"
+          "mech": "Alias"
         },
         {
-          "callsign": "Kal",
-          "alias": "Vier Flau",
-          "code": "7cd700cc-c990-48ed-892f-e5468de724c4///NDL-C-DEEP-STATION//a98c3e28-ad4a-4f89-bcd9-501464e960da",
+          "callsign": "Chopin",
+          "alias": "Simon Pangerstad",
+          "code": "4afbdebb-3317-4e42-808d-29195f7c7ef5///SeCo IA - hrefb8yu//8394e82b-ecdc-483f-b77b-e2b0c2c739d4",
           "corpro": "GMS",
           "frame": "Everest",
-          "mech": "Necrophile"
+          "mech": "Octave"
         },
         {
-          "callsign": "Starboard",
-          "alias": "Maria",
-          "code": "4be26ce9-923b-4069-b6c9-76437d4be455///NDL-C-DEEP-STATION//056940c6-8d55-4190-8e85-57caa043cb1a",
+          "callsign": "Clem",
+          "alias": "Reginald Clement",
+          "code": "5205dcf8-8e97-478d-b9d6-664f2a1122e5///SeCo IA - hrefm9mi//2c485c7e-de1a-4aba-be70-3893f8477ec1",
           "corpro": "GMS",
           "frame": "Everest",
-          "mech": "Scarlet Judicator"
+          "mech": "Shiela"
         },
         {
-          "callsign": "Badlands",
-          "alias": "Marlene Gatsby",
-          "code": "98ca9616-044e-4f87-b89b-aae4eb3387ec///NDL-C-DEEP-STATION//6f572259-6946-41bf-931a-e0543709e892",
+          "callsign": "Cross",
+          "alias": "Twain",
+          "code": "63175a98-1773-46a8-a900-f1b01a11db3d///SeCo IA - hrefa4bv//f39ee802-342e-4da9-a216-fbefa7759fc3",
           "corpro": "GMS",
           "frame": "Everest",
-          "mech": "Mayfly"
-        },
-        {
-          "callsign": "Compadre",
-          "alias": 'Clint "CC" Cruz',
-          "code": "d1fdf62e-d81e-4e10-97c8-df3bc4860117///NDL-C-DEEP-STATION//5a4254aa-9fa2-42ca-a077-8f5bfd1e1ad3",
-          "corpro": "GMS",
-          "frame": "Everest",
-          "mech": "Rio Bravo"
+          "mech": "Shackle"
         },
       ],
       "header": {
-        "planet": "Hercynia",
+        "planet": "N/A",
         "year": "5014u",
-        "system": "Ardennes-3",
+        "system": "Eridanus-3",
         "gate": "Atlas-Quanokrim",
         "ring": "Atlas-Line",
-        "headerTitle": "Mirrorsmoke",
-        "headerSubtitle": "Mercenary Company",
-        "subheaderTitle": "Crisis Response",
-        "subheaderSubtitle": "Delta-Echo-Echo-Zulu",
+        "headerTitle": "SerysCo",
+        "headerSubtitle": "Internal Affairs",
+        "subheaderTitle": "Classified: Eyes-only",
+        "subheaderSubtitle": "Anvil Squad",
       },
       "options":{
         "eventsMarkdownPerMission": true
