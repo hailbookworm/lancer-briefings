@@ -89,12 +89,12 @@ export default {
 
   data() {
     return {
-      "mission_slug": "001_DO",
+      "mission_slug": "001_Deadorbit",
       "current_md": "",
       "events": "",
       "missions": [
         {
-          "slug": "001_DO",
+          "slug": "001_Deadorbit",
           "name": "Dead Orbit",
           "status": "start"
         },
