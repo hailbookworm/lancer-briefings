@@ -134,10 +134,10 @@ export default {
         },
       ],
       "header": {
-        "planet": "N/A",
+        "planet": "Shamshir",
         "year": "5014u",
-        "system": "Eridanus-3",
-        "gate": "Atlas-Quanokrim",
+        "system": "Desdemona",
+        "gate": "Atlas-Durandal",
         "ring": "Atlas-Line",
         "headerTitle": "SerysCo",
         "headerSubtitle": "Internal Affairs",
