@@ -89,13 +89,13 @@ export default {
 
   data() {
     return {
-      "mission_slug": "001_Deadorbit",
+      "mission_slug": "002_FITHH",
       "current_md": "",
       "events": "",
       "missions": [
         {
-          "slug": "001_Deadorbit",
-          "name": "Dead Orbit",
+          "slug": "002_FITHH",
+          "name": "Fox in the Hen House",
           "status": "start"
         },
       ],
@@ -122,7 +122,7 @@ export default {
           "code": "5205dcf8-8e97-478d-b9d6-664f2a1122e5///SeCo IA - hrefm9mi//2c485c7e-de1a-4aba-be70-3893f8477ec1",
           "corpro": "GMS",
           "frame": "Everest",
-          "mech": "Sheila"
+          "mech": "Shiela"
         },
         {
           "callsign": "Cross",
